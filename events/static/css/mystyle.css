@@ -1,0 +1,239 @@
+
+@font-face{
+  font-family:'NanumSquareB';
+  src: url('../font/NanumSquareB.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'SNU';
+  src: url('../font/DXSnUB-KSCpc-EUC-H.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'kopubBatangB';
+  src: url('../font/KoPubWorld Batang Bold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'kopubDotumB';
+  src: url('../font/KoPubWorld Dotum Bold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'kopubDotumM';
+  src: url('../font/KoPubWorld Dotum Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'MobrRExtraB';
+    src: url('../font/DXMobrRExtraBold-KSCpc-EUC-H.ttf') format('truetype');
+}
+
+a.logreg{
+    font-size: 20px;
+    color: #500867;
+    font-family:'NanumSquareB';
+}
+
+p.lr{
+      font-size: 20px;
+      color: #500867;
+      font-family:'NanumSquareB';
+}
+a.logreg:hover, a.mainfont:active{
+  color: #ffaea0;
+  text-decoration: none;
+}
+
+p.font{
+  font-family: 'SNU';
+  color:#ffffff;
+  font-size:25px;
+
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height:100%
+}
+
+input.sear{
+  font-family: 'SNU';
+  color:#9e809c;
+  padding-left:10px;
+  font-size:30px;
+
+  /* padding-right:120px; */
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:20px;
+  padding-right:63px;
+  width:550px;
+  background-color: #ffffff;
+  opacity:0.69;
+  border:none;
+  border-radius: 15px;
+}
+
+img.slide{
+  width :301.5px;
+  height:295.5px;
+}
+
+input.sear_b[type="submit"]{
+  position:absolute;
+  margin-top:5.5px;
+  margin-left:-56px;
+  width:42px;
+  height:41px;
+  border:none;
+  background: url("../images/mainscreen/searchstar.png") no-repeat;
+}
+
+input.sear::placeholder {
+    font-family: 'SNU';
+    color:#9e809c;
+    padding-left:5px;
+    font-size:25px;
+}
+
+img.logo{
+  position: relative;
+  left:30px;
+  top: 20px;
+}
+
+a.mainfont:hover, a.mainfont:active{
+  color: #ffaea0;
+  text-decoration: none;
+}
+a.mainfont{
+  font-size: 28px;
+  color: #500867;
+  font-family:'NanumSquareB';
+}
+
+a.selectmainfont{
+  font-size: 28px;
+  color:  #ffaea0;
+  font-family:'NanumSquareB';
+}
+
+a.selectmainfont:hover, a.mainfont:active{
+  color: #ffaea0;
+  text-decoration: none;
+}
+
+div.infobox{
+  color:#9e809c;
+  margin-left:160px;
+  margin-top:80px;
+  width:1200px;
+  height:570px;
+  background-color: #ffffff;
+  opacity:0.8;
+  border:none;
+  border-radius: 15px;
+
+}
+
+p.infofont{
+  padding-left:120px;
+  padding-top:35px;
+  font-family:'kopubBatangB';
+  font-size:25px;
+  color:#140719;
+}
+
+p.infofont12{
+  padding-left:100px;
+  padding-right:100px;
+
+  font-family:'SNU';
+
+  /* font-family:'kopubDotumM'; */
+  font-size:18px;
+  color:#140719;
+}
+
+h2.infofont2{
+  padding-left:600px;
+  padding-top:18px;
+  font-family:'kopubBatangB';
+  font-size:40px;
+  color:#ffffff;
+}
+
+ul{
+    list-style:none;
+}
+
+
+li.menu{
+  list-style-type:none;
+  margin-right: 100px;
+  /* margin: 30px 0px 0px 80px; */
+  float: left;
+}
+
+
+li.menulr{
+  list-style-type:none;
+  margin-top: 9px;
+  /* margin: 30px 0px 0px 80px; */
+  float: left;
+}
+
+.horizontal_menu{
+  margin-top:30px;
+  margin-left:110px;
+  display:inline-block;
+  overflow:hidden;
+}
+
+div.back{
+  background: url("../images/mainscreen/main_background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /* background-image: url("../images/mainscreen/main_background.png");
+  max-width:100%;
+  border: 0;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  height:auto;
+  vertical-align: :middle;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+
+}
+
+
+td{
+  border-collapse: :collapse;
+  margin:0px;
+  padding:0px;
+}
+
+
+td.maintextlrtd{
+  padding-top:25px;
+  padding-left:90px;
+  align:center;
+}
+
+td.maintexttd{
+  padding-top:20px;
+  padding-left:110px;
+  align:center;
+}
+
+td.logotd{
+  padding-top:15px;
+  padding-left:25px;
+  align:center;
+}
